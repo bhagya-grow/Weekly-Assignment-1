@@ -130,7 +130,7 @@ ul {
 .content{
     justify-content: space-between;
     gap:30px;
-    padding: 40px;
+    padding: var(--padding);
 }
 
 .right-content img{
@@ -148,18 +148,10 @@ ul {
 .our-products{
   background-color: #ebf2fa; 
   height: 200px;
+  width: 100%;
   flex-direction: column;
   align-items:flex-start;
   padding: var(--padding);
 }
 
-.footer-links{
-  height: 50px;
-  width: 100%;
-  align-content: center;
-  background-color:#ebf2fa;
-}
-.footer-links ul{
-  
-  gap: var(--padding);
-}
+

@@ -1,0 +1,17 @@
+.gallery-content {
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px;
+}
+
+.gallery{
+    text-align: center;
+
+}
+
+.gallery-item img {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)
+}
