@@ -107,6 +107,26 @@ ul {
     color: var(--accents-light);
 }
 
+.button{
+    background-color: var(--secondary-text-color);
+    color: var(--accents-color);
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+    z-index: 5;
+}
+
+
+.button:hover{
+  color: var(--secondary-text-color);
+  background-color: var(--accents-color);
+}
+
+
+
+
 .content{
     justify-content: space-between;
     gap:30px;
@@ -123,4 +143,23 @@ ul {
     align-items: flex-start;
     justify-content: flex-start;
     gap: var(--padding);
+}
+
+.our-products{
+  background-color: #ebf2fa; 
+  height: 200px;
+  flex-direction: column;
+  align-items:flex-start;
+  padding: var(--padding);
+}
+
+.footer-links{
+  height: 50px;
+  width: 100%;
+  align-content: center;
+  background-color:#ebf2fa;
+}
+.footer-links ul{
+  
+  gap: var(--padding);
 }
