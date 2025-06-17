@@ -35,6 +35,14 @@
     flex-direction: column;
     flex: 1 0 100%;
   }
+
+  /* Extra */
+  .image-card {
+    width: 450px;
+    height: 250px;
+    /* position: relative; */
+    /* overflow: hidden; */
+  }
 }
 
 @media (max-width: 700px) {
@@ -95,17 +103,17 @@
     margin-top: 10px;
     margin: 0px;
   }
-  /* .topbanner{
-    min-height: 300px;
-  
-  }
-.topbanner-containe::before{
-    min-height: 300px;
-  } */
+  /* git  */
 
   td, th {
  
     padding: 3px;
+  }
+
+  /* Extra */
+  .image-card {
+    height: 200px;
+    width: 400px;
   }
 }
 

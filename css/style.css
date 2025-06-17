@@ -7,10 +7,10 @@
   box-sizing: border-box;
 }
 :root {
-  --secondary-text-color: #74C69D;
+  --secondary-text-color: #74c69d;
   --primary-text-color: #1b4332;
   --accents-color: #081c15;
-  --accents-light:#40916C; 
+  --accents-light: #40916c;
   --padding: 20px;
 }
 
@@ -69,7 +69,7 @@ ul {
   background-repeat: no-repeat;
   z-index: -2;
 }
-.menu-icon{
+.menu-icon {
   display: none;
 }
 
@@ -100,72 +100,68 @@ ul {
   gap: var(--padding);
 }
 
-.hover-links{
-    color: var(--primary-text-color);
-    transition: all 0.2s ease-in;
-    font-weight: 600;
+.hover-links {
+  color: var(--primary-text-color);
+  transition: all 0.2s ease-in;
+  font-weight: 600;
 }
 
-.hover-links:hover{
-    color: var(--accents-light);
-}
-
-.button{
-    background-color: var(--secondary-text-color);
-    color: var(--accents-color);
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: 600;
-    transition: all 0.2s ease-in;
-    z-index: 5;
+.hover-links:hover {
+  color: var(--accents-light);
 }
 
 
-.button:hover{
+
+.button {
+  background-color: var(--secondary-text-color);
+  color: var(--accents-color);
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.2s ease-in;
+  z-index: 5;
+}
+
+.button:hover {
   color: var(--secondary-text-color);
   background-color: var(--accents-color);
 }
 
-
-
-
-.content{
-    justify-content: space-between;
-    gap:30px;
-    padding: var(--padding);
+.content {
+  justify-content: space-between;
+  gap: 30px;
+  padding: var(--padding);
 }
 /* .image2{
   flex-direction: row-reverse;
 } */
 
-.right-content img{
-    height: 300px;
-    width: 500px;
+.right-content img {
+  height: 300px;
+  width: 500px;
 }
 
 .img-item img {
   height: 300px;
   width: 500px;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3)
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
-.left-content{
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--padding);
+.left-content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--padding);
 }
 
-.our-products{
-  background-color: #ebf2fa; 
+.our-products {
+  background-color: #ebf2fa;
   height: 200px;
   width: 100%;
   margin-bottom: var(--padding);
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: var(--padding);
 }
-
-
