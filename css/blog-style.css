@@ -34,9 +34,9 @@
 
 .text-blog{
     width: 100%;
-    height: 60px;
+    height: 100px;
     overflow: auto;
-    margin: 5px;
+    margin: 10px;
 }
 
 .text-content span,p{
